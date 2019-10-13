@@ -21,7 +21,7 @@ Add your SSH key to your Bitbucket account so that you don't have to keep typing
 
 7. Check if it worked in terminal.
     * `ssh -T git@bitbucket.org`
-    * You should see that your logged in as your username.
+    * You should see that you're logged in as your username.
 
 8. Now you can use the SSH URL next time you clone the repo.
 
@@ -30,7 +30,7 @@ Add your SSH key to your Bitbucket account so that you don't have to keep typing
 We are using 2 main branches.
 
 1. `master`
-    * This is our production branch. Everthing that has been tested is put here for release.
+    * This is our production branch. Everything that has been tested is put here for release.
 
 2. `dev`
     * This is our development branch. All feature branches get merged here for testing.
@@ -53,6 +53,11 @@ We are using 2 main branches.
 5. Make your changes.
 
 6. Commit your changes.
+    * All commits should be written in past tense. For example:
+        * "Export feature added"
+        * "Import test added"
+        * "UI bug squashed"
+        * "Readme updated"
 
 7. Push your changes.
     * `git push -u origin feature-name`
