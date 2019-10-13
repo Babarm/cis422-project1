@@ -68,3 +68,15 @@ We are using 2 main branches.
 
 ## Pull Requests ##
 
+Pull requests should be kept small so that they are easy to review.
+
+When you push your feature branch up to Bitbucket, it will give you a link to open a PR:
+![pr link](./img/PR.png)
+
+When you open the link you will get this page:
+![pr](./img/CreatePR.png)
+Here we can see that I want to merge the `pr-example` branch into the `dev` branch.
+
+At least 2 other team members will have to review and approve this PR before it gets merged.
+
+Ensure the the *Close branch* checkbox is checked so that the feature-branch get deleted after it gets merged into `dev`. This keeps the repo clean.
