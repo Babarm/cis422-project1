@@ -39,6 +39,7 @@ We are using 2 main branches.
 
 1. Clone the repo.
     * `git clone git@bitbucket.org:cis422f19team4/project1.git`
+    * You only have to do this once. You should start from step 2 after that.
 
 2. Fetch the latest changes.
     * `git fetch`
@@ -64,3 +65,6 @@ We are using 2 main branches.
     * This pushes your feature branch up to the repo on Bitbucket.
 
 8. Open a pull request on Bitbucket.
+
+## Pull Requests ##
+
