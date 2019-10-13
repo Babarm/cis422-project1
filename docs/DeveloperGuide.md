@@ -39,6 +39,7 @@ We are using 2 main branches.
 
 1. Clone the repo.
     * `git clone git@bitbucket.org:cis422f19team4/project1.git`
+    * You only have to do this once. You should start from step 2 after that.
 
 2. Fetch the latest changes.
     * `git fetch`
@@ -64,3 +65,18 @@ We are using 2 main branches.
     * This pushes your feature branch up to the repo on Bitbucket.
 
 8. Open a pull request on Bitbucket.
+
+## Pull Requests ##
+
+Pull requests should be kept small so that they are easy to review.
+
+When you push your feature branch up to Bitbucket, it will give you a link to open a PR:
+![pr link](./img/PR.png)
+
+When you open the link you will get this page:
+![pr](./img/CreatePR.png)
+Here we can see that I want to merge the `pr-example` branch into the `dev` branch.
+
+At least 2 other team members will have to review and approve this PR before it gets merged.
+
+Ensure the the *Close branch* checkbox is checked so that the feature-branch get deleted after it gets merged into `dev`. This keeps the repo clean.
