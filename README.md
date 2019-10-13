@@ -15,7 +15,7 @@ An address book implementation with a couple "Office" references
 
 ### Contribution guidelines ###
 
-:computer: Read the developer onboarding guide [here]().
+:computer: Read the developer onboarding guide [here](./docs/DeveloperGuide.md).
 
 ### Schrute Farms LLC Team ###
 
